@@ -200,22 +200,11 @@ export default class App extends Component {
                 <div className="divRight">
                   <span>
                     {item.location.street.number}, {item.location.street.name} ,{" "}
-                    {item.location.city}{" "}
+                    {item.location.city} , {item.location.state} , {item.location.country}{" "}
                   </span>
                 </div>
               </div>
 
-              <div className="datadiv">
-                <div className="divLeft">
-                  <span>Address</span>
-                </div>
-                <div className="divRight">
-                  <span>
-                    {item.location.street.number}, {item.location.street.name} ,{" "}
-                    {item.location.city}{" "}
-                  </span>
-                </div>
-              </div>
             </div>
             {/* 
             {dob}
